@@ -6,6 +6,15 @@ export class Todo {
   public id: number;
 
   @Column()
+  name:string;
+
+  @Column({unique:true})
+  email:string;
+
+  @Column()
+  password:string;
+
+  @Column()
   public title: string;
 
   @Column()

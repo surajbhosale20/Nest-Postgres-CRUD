@@ -3,6 +3,9 @@
 
 export class UpdateTodoDto {
   id: number;
+  name:string;
+  email:string;
+  password:string;
   title: string;
   content: string;
   f_done: boolean;
